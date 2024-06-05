@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
 .blog_section .box .detail-box a {
   display: inline-block;
   padding: 8px 30px;
